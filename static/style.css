@@ -1,0 +1,101 @@
+.map {
+    fill: rgb(3, 134, 3);
+}
+
+.map:hover {
+    fill: rgb(25, 114, 25);
+}
+
+.pointer-label.high {
+    display: none;
+}
+
+#counter:hover~svg .map {
+    fill: rgb(25, 114, 25);
+}
+
+.title_logo {
+    margin-top: -2px;
+}
+
+.uk-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.map-wrapper {
+    padding-top: 50px;
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.logo {
+    display: block;
+    height: 50px;
+    margin-right: 13px;
+}
+
+
+#counter {
+    width: 900px;
+    display: block;
+    position: absolute;
+    bottom: 113px;
+    text-align: center;
+    left: calc((100% - 900px) / 2);
+    z-index: 5;
+}
+
+.sliderrange {
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+nav {
+    height: 100px;
+}
+
+.slider-container .scale ins {
+    background: #fff;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.wrap_2 {
+    margin: 0 45px;
+}
+
+.uk-card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.title_conf {
+    font-size: 1.3rem;
+    margin: 0px 0;
+}
+ 
+.new_conf {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+}
+
+.footer_div {
+    color: white !important;
+}
+
+.center_div_a1 {
+    padding: 50px;
+    margin: auto;
+    height: calc(100vw - (100 + 308));
+}
